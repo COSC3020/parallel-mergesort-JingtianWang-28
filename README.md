@@ -12,3 +12,7 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the span of the parallel program, in terms of worst-case $\Theta$? Hint:
 It may help to consider the DAG of the parallel program.
+
+///
+
+The depth of divide and conquer is log n, there are log n layers of recursion in total, sorting takes n time at each layer of recursion, and the span is theta (n log n)
